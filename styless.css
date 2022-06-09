@@ -1,0 +1,363 @@
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold !important;
+  transition: all 0.2s linear !important;
+}
+
+.red {
+  color: #C71C1D;
+}
+
+.greyBlue{
+  color: #5a6b8a;
+}
+
+.navbar {
+  background-color: #C71C1D;
+  z-index: 2; 
+}
+
+.nav-link {
+  padding: 3;
+  white-space: nowrap;
+  display: flex !important;
+  align-items: center;
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bold !important; 
+}
+
+.nav-link a {
+  color: white;
+}
+
+.nav > li {
+  padding: 0;
+}
+
+.myNavLink {
+  padding: 3 !important;
+}
+
+.block {
+  width: 35px;
+  height: 5px;
+  color: white;
+  margin: 0 0 6px 0;
+}
+
+.search {
+  font-weight: bold;
+  color: white;
+}
+
+.search:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.list-group-item:hover{
+  color:#C71C1D;
+  cursor: pointer;
+}
+
+.hero-card {
+  font-weight: bolder;
+  font-stretch: semi-expanded; 
+}
+
+.coronaTab {
+  font-weight: bolder !important;
+  color: red;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.bg-greyish {
+  background-color: #F3F3F3;
+}
+
+.coronaTabcontent {
+  font-size: 3rem!important;
+  font-weight: bolder!important;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.nav-tabs {
+  border: none!important;
+}
+
+.myContainer {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  width: 70%;
+  visibility: hidden;
+  background-color: purple;
+ }
+
+.dropbtn {
+  background-color: #C71C1D;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer; 
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: gray; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -45px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  width: 80vw;
+  overflow-y: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 16px;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .dropdown-content {
+      width: 100vw;
+      height: 100vh;
+      overflow-y: auto;
+      left: -16px; } 
+    }
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ }
+
+.dropdown a:hover {
+  background-color: #ddd; 
+}
+
+.show {
+  display: block; 
+}
+
+.myRow {
+  width: 100%; 
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+}
+
+.Lista {
+  align-items: center;
+  justify-content: center;
+  font-style: itaclic;
+  font-weight: 800px !important; 
+}
+
+.paddin {
+  padding: 0 !important; 
+}
+
+.red {
+  color: red; 
+}
+
+.margina {
+  margin-bottom: 300px;
+ }
+
+.rounded {
+  border-radius: 50% 50% 50% 50%; 
+}
+
+.hamburger {
+  cursor: pointer; 
+}
+
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  color: white;
+  background-color: white; 
+}
+
+.moj {
+  background-color: #C71C1D; 
+}
+
+  .openmenu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -3000px;
+    left: 0;
+    transition: all 0.5s;
+    z-index: 1;   
+}
+
+.open {
+  top: 62px;
+}
+
+@media only screen and (max-width: 767px) {
+  .open {
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .maxWidth {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
+header{
+    position: relative;
+    z-index: 1000px;
+}
+
+.fixed{
+  overflow: hidden;
+}
+
+.list-group-item {
+
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: large;
+  color: rgb(100, 100, 100);
+  font-weight: bolder !important;
+  background: none !important;
+  border: none!important;
+}
+
+.bg-red {
+  background-color: #C71C1D;
+}
+
+.naslovnica {
+
+  color: #C71C1D !important;
+  font-weight: bolder !important;
+}
+
+.gradient {
+  background: radial-gradient(ellipse 100% 290px at 100% 0%, rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 0) 100%);
+}
+
+.gradientNav {
+  background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.nav-link:hover{
+  color: grey !important;
+
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container .after {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: calc( 100% - 30px );
+  height: 100%;
+}
+
+.image-container:hover .after {
+  background: rgba(0, 0, 0, .6);
+}
+
+.imgCustom{
+  max-width: 100%;
+}
+
+.smallCard{
+  position: relative;
+  overflow: hidden;
+
+}
+
+.smallCard .overlay-smallCard{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.smallCard:hover .overlay-smallCard{
+  background: rgba(0, 0, 0, .3);
+}
+
+.small-btn{
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #C71C1D;
+  padding: 4px;
+  color: white;
+}
+
+.smallCard:hover .small-btn{
+  bottom: 0;
+}
+
+.cardHover:hover {
+  cursor: pointer;
+  color: #C71C1D;
+}
+
+.vijesti{
+  color: #C71C1D;
+}
+
+.vijesti:hover{
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #F4F4F4;
+}
+
+
+.footerNaslovi:hover{
+  cursor: pointer;
+}

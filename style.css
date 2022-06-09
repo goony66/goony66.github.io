@@ -1,0 +1,36 @@
+* {
+
+    text-decoration: none;
+}
+
+
+
+.logo {
+
+
+  justify-content: flex-start;
+  display: inline-block;
+    
+}
+
+.navbar-custom {
+
+
+background-color: #C71C1D;
+
+
+
+}
+
+
+.background {
+
+  background-color: #C71C1D;
+
+
+}
+
+.containerReklama {
+
+  background-color: green;
+}

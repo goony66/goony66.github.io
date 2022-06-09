@@ -1,0 +1,18 @@
+{
+  "name": "dnevnik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "theirScript": "node-sass --include-path scss ./styles.scss ./styless.css",
+    "watch": "nodemon -e scss --exec npm run theirScript"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
